@@ -1,0 +1,22 @@
+<div ng-controller="chartCtrl">
+
+  <div class="row" style="margin-bottom: 10px">
+    <div id="choices">
+      <div ng-click="vote('YES')" class="button_width btn btn-primary">Yes</div>
+      <div ng-click="vote('NO')" class="button_width btn btn-primary">No</div>
+      <div ng-click="vote('NOT SURE')" class="button_width btn btn-primary">I dunno</div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-bottom: 10px">
+    <div ng-click="reset()" class="btn btn-danger" style="width: 100%">Reset Votes</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 col-sm-12">
+      <canvas id="doughnut" class="chart chart-doughnut"
+              chart-data="data" chart-labels="labels">
+      </canvas>
+    </div>
+  </div>
+</div>
