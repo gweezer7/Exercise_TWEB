@@ -29,7 +29,7 @@ http.listen(config.port, function () {
   Poll.remove({}, function() {});
   Poll.create({
     title : "TWEB",
-    labels : ["YES", "NOT SURE", "NO"],
+    labels : ["TROP BIEN !", "Bof", "D'la merde"],
     data : [0, 0, 0]
   });
 });

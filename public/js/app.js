@@ -6,20 +6,28 @@ angular.module('chartApp', [
 
   .config(function ($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/audience');
+    $urlRouterProvider.otherwise('/home');
 
     $stateProvider
-      .state('audience',{
-        url: '/audience',
-        templateUrl: '/templates/audience.html'
+      .state('home',{
+        url: '/home',
+        templateUrl: '/templates/home.html'
       })
-      .state('board',{
-        url: '/board',
-        templateUrl:'/templates/board.html'
+      .state('answers',{
+        url: '/answers',
+        templateUrl:'/templates/answers.html'
       })
-      .state('debug', {
-        url: '/debug',
-        templateUrl: '/templates/debug.html'
+      .state('guide', {
+        url: '/guide',
+        templateUrl: '/templates/guide.html'
+      })
+      .state('members', {
+        url: '/members',
+        templateUrl: '/templates/members.html'
+      })
+      .state('clanwars', {
+        url: '/clanwars',
+        templateUrl: '/templates/clanwars.html'
       })
   })
 

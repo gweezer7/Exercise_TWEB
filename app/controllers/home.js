@@ -12,7 +12,7 @@ router.get('/', function (req, res, next) {
   Poll.find(function (err, polls) {
     if (err) return next(err);
     res.render('index', {
-      title: 'TWEB Demo Angular Charts',
+      title: 'GEMME MON CLAN',
       polls: polls
     });
   });
