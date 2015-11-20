@@ -9,7 +9,7 @@ var config = {
       name: 'tweb-angular'
     },
     port: 3000,
-    db: 'mongodb://localhost/tweb-angular-development'
+    db: 'mongodb://gweezer7:gweezer7@ds059908.mongolab.com:59908/heroku_nbdh6h3w'
   },
 
   test: {
@@ -18,7 +18,7 @@ var config = {
       name: 'tweb-angular'
     },
     port: 3000,
-    db: 'mongodb://localhost/tweb-angular-test'
+    db: 'mongodb://gweezer7:gweezer7@ds059908.mongolab.com:59908/heroku_nbdh6h3w'
   },
 
   production: {
@@ -27,7 +27,7 @@ var config = {
       name: 'tweb-angular'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/tweb-angular-production'
+    db: 'mongodb://gweezer7:gweezer7@ds059908.mongolab.com:59908/heroku_nbdh6h3w'
   }
 };
 
