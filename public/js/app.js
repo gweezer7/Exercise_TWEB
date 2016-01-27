@@ -21,6 +21,22 @@ angular.module('chartApp', [
         url: '/members',
         templateUrl: '/templates/members.html'
       })
+      .state('attackRanking', {
+        url: '/attackRanking',
+        templateUrl: '/templates/attackRanking.html'
+      })
+      .state('troops', {
+        url: '/troops',
+        templateUrl: '/templates/troops.html'
+      })
+      .state('activityRecord', {
+        url: '/activityRecord',
+        templateUrl: '/templates/activityRecord.html'
+      })
+      .state('trophyRecord', {
+        url: '/trophyRecord',
+        templateUrl: '/templates/trophyRecord.html'
+      })
       .state('clanwars', {
         url: '/clanwars',
         templateUrl: '/templates/clanwars.html'

@@ -1,13 +1,16 @@
 <div ng-controller="chartCtrl">
 
-  <h1> Question de la semaine </h1>
-  <h4> Etes-vous satisfait de l'organisation des GDCs ? </h4>
-  <div class="row">
-    <div id="choices">
-      <div ng-click="vote('TRO BIEN !')" class="button_width btn btn-success">Ouais ça tourne bien !</div>
-      <div ng-click="vote('D\'la merde')" class="button_width btn btn-danger">Non trop le bordel</div>
-      <div ng-click="vote('Bof')" class="button_width btn btn-default">Bof bof ça dépend</div>
-    </div>
-  </div>
-
+  <h2> Bienvenue sur le site officiel de GEMME-MON-CLAN </h2>
+<br><br>
+</div>
+<h4>Plan du site:</h4>
+<br>
+<div class="btn-group" role="group" >
+  <button type="button" class="btn btn-default"><a ui-sref="guide">Guide</a></button>
+  <button type="button" class="btn btn-info"><a ui-sref="members">Liste des Membres</a></button>
+  <button type="button" class="btn btn-info"><a ui-sref="attackRanking">Classement d'attaque</a></button>
+  <button type="button" class="btn btn-info"><a ui-sref="troops">Troupes</a></button>
+  <button type="button" class="btn btn-info"><a ui-sref="activityRecord">Record d'activités</a></button>
+  <button type="button" class="btn btn-info"><a ui-sref="trophyRecord">Record de Trophées</a></button>
+  <button type="button" class="btn btn-warning"><a ui-sref="clanwars">Guerres de clan</a></button>
 </div>
