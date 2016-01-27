@@ -13,10 +13,6 @@ angular.module('chartApp', [
         url: '/home',
         templateUrl: '/templates/home.html'
       })
-      .state('answers',{
-        url: '/answers',
-        templateUrl:'/templates/answers.html'
-      })
       .state('guide', {
         url: '/guide',
         templateUrl: '/templates/guide.html'
